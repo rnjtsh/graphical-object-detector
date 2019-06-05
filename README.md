@@ -15,7 +15,7 @@ The results of GOD on different datasets is listed in the paper.
 ### Getting Started
 Clone the repo:
 ```
-    git clone https://github.com/rnjtsh/graphical-object-detector/GOD.git
+    git clone https://github.com/rnjtsh/graphical-object-detector.git
 ```
 Then, create a folder:
 ```
