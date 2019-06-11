@@ -1,4 +1,4 @@
-# Graphical Object Detector in document images
+# Graphical Object Detection in document images
 
 This repository contains end-to-end trainable deep learning based framework to localize graphical objects in the document images called as Graphical Object Detection (GOD). 
 
@@ -62,3 +62,7 @@ We used ImageNet pretrained weights (VGG16 and ResNets) from Caffe in our experi
 Download them and put them into the ```data/pretrained_model/```.
 
 **If you want to use pytorch pre-trained models, please remember to transpose images from BGR to RGB, and also use the same data transformer (minus mean and normalize) as used in pretrained model.**
+
+### Citation
+
+If you find this work useful, please cite the following paper  "Ranajit Saha, Ajoy Mondal and C V Jawahar, Graphical Object Detection in Document Images, ICDAR-2019"
