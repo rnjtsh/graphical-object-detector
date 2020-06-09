@@ -64,5 +64,11 @@ Download them and put them into the ```data/pretrained_model/```.
 **If you want to use pytorch pre-trained models, please remember to transpose images from BGR to RGB, and also use the same data transformer (minus mean and normalize) as used in pretrained model.**
 
 ### Citation
-
-If you find this work useful, please cite the following paper  "Ranajit Saha, Ajoy Mondal and C V Jawahar, Graphical Object Detection in Document Images, ICDAR-2019"
+    @inproceedings{saha2019graphical,
+      title={Graphical Object Detection in Document Images},
+      author={Saha, Ranajit and Mondal, Ajoy and Jawahar, CV},
+      booktitle={2019 International Conference on Document Analysis and Recognition (ICDAR)},
+      pages={51--58},
+      year={2019},
+      organization={IEEE}
+    }
